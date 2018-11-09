@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shootin' The Sports</title>
+    <!-- These link elements must be in this order -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!-- Begin the navigation bar-->
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Shootin' The Sports!</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item" >
+                    <a class="nav-link nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="who.html">Who We Are</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="proof.html">Proof</a>
+                          </li>
+                          <li class="nav-item">
+                                <a class="nav-link" href="faq.html">Frequently Told Secrets</a>
+                              </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Contact
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="insta.html">Instagram</a>
+                        <a class="dropdown-item" href="fb.html">Facebook</a>
+                        <a class="dropdown-item" href="contact.html">Email</a>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Button trigger Login modal -->               
+            <button type="button" class="btn btn-primary mx-2" data-toggle="modal" data-target="#loginModal">Login</button>               
+            <!-- Button trigger Register modal -->                  
+            <button type="button" class="btn btn-primary mx-2" data-toggle="modal" data-target="#registerModal">Register</button>  
+        </div>
+</nav>
+
+<section>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img id="carousel-img" class="d-block w-100" src="images/slide 1 foot ball.jpeg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Shootin' The Sports</h5>
+                        <p>You can find us live every Wednesday!</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img id="carousel-img" class="d-block w-100" src="images/slide 2 base ball.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                            <h5>Shootin' The Sports</h5>
+                            <p>8p.m. - 9p.m.</p>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img id="carousel-img" class="d-block w-100" src="images/slide 3 basetkball.jpg"Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                            <h5>Shootin' The Sports</h5>
+                            <p>with your favorite host Frankie Frank!</p>
+                        </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+</section>
+<!-- end of section with carousel-->
+<!-- Start section with sports icons-->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class ="col-md-4 mb-4 text-center">
+                <i class="fa fa-football-ball fa-2x mb-2"></i>
+                <h3>NFL: Everything you need.</h3>
+            </div>   
+            <div class ="col-md-4 mb-4 text-center">
+                    <i class="fa fa-basketball-ball fa-2x mb-2"></i>
+                    <h3>NBA: Who's Hot? Week by Week Predictions.</h3>
+            </div> 
+            <div class ="col-md-4 mb-4 text-center">
+                    <i class="fa fa-baseball-ball fa-2x mb-2"></i>
+                    <h3>MLB: Now that that's over, What to look forward to in 2019.</h3>
+            </div>       
+        </div>  
+    </div>
+</section>
+
+ <!-- video-->
+ <section id="video-play">        
+        <div class="dark-overlay">
+          <div class="row">
+            <div class="col">
+              <div class="container p-5">
+              <a href="#" class="video" data-video="https://www.youtube.com/embed/Z0ER6PbW5uw" data-toggle="modal" data-target="#videoModal">
+              <i class="fa fa-play fa-3x"></i></a>
+              <h1>Latest Episode</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+<!-- Footer -->
+<footer id="main-footer" class="text-center p4">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p>Copyright &copy; (Don't even try it)
+              <span id="year"></span>: Shootin' The Sports</p>
+            </div>
+              </div>
+        </div>
+      </footer>
+
+      <!-- Video modal code-->
+      <div class="modal fade" id="videoModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-body">
+                <button class="close" data-dismiss="modal"><span>&timesl</span> </button>
+                  <iframe src="" frameborder="0" height="350" width="100%" allowfullscreen></iframe>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+   <!-- these script elements must be in this order-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/popper.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <!-- this is where the custom script goes (internal script or external script)-->
+
+
+<script>
+ //custom scripts internal components
+//Custom script for java video
+autoPlayYouTubeModal();
+
+//FUNCTION TO GET AND AUTO PLAY YOUTUBE VIDEO FROM DATATAG
+function autoPlayYouTubeModal() {
+   var trigger = $("body").find('[data-toggle="modal"]');
+   trigger.click(function () {
+       var theModal = $(this).data("target"),
+           videoSRC = $(this).attr("data-video"),
+           videoSRCauto = videoSRC + "?autoplay=1";
+       $(theModal + ' iframe').attr('src', videoSRCauto);
+       $(theModal + ' button.close').click(function () {
+           $(theModal + ' iframe').attr('src', videoSRC);
+       });
+   });
+}
+// zget the current year for copyright, this is a jquery selection methode. selecting out of the dot. $ then select the element. 
+$('#year').text(new Date().getFullYear());
+</script>
+
+</body>
+
+</html>
